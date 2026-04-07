@@ -1,0 +1,6 @@
+.env
+.claude/
+logs/
+vendor/
+*.log
+*.txt.bak

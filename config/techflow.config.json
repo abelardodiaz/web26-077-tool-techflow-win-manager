@@ -1,0 +1,40 @@
+{
+    "version": "5.0",
+    "security": {
+        "masterPasswordHash": "",
+        "salt": "TechFlow_Salt_077x!",
+        "requirePasswordForDangerousOps": true,
+        "trustedUrls": [
+            "https://christitus.com/win",
+            "https://get.activated.win",
+            "https://community.chocolatey.org/install.ps1"
+        ]
+    },
+    "backup": {
+        "defaultBasePath": "C:\\Backups",
+        "userFolders": [
+            "Desktop", "Documents", "Pictures", "Videos",
+            "Music", "Downloads", "Favorites", "Contacts",
+            "Saved Games", "AppData\\Roaming"
+        ],
+        "robocopyThreads": 16,
+        "robocopyRetries": 1
+    },
+    "logging": {
+        "enabled": true,
+        "level": "INFO",
+        "retentionDays": 30
+    },
+    "ui": {
+        "horizontalMenu": true,
+        "colorPrimary": "Green",
+        "colorAlert": "Yellow",
+        "colorDanger": "Red",
+        "colorMenu": "Cyan"
+    },
+    "bloatware": [
+        "*CandyCrush*", "*Disney*", "*Netflix*",
+        "*TikTok*", "*Instagram*", "*BingNews*",
+        "*Clipchamp*", "*Facebook*", "*Spotify*"
+    ]
+}

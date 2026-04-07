@@ -1,0 +1,23 @@
+project:
+  code: web26-077
+  name: TechFlow Win Manager
+  version: 0.1.0
+  status: development
+  description: Windows manager tool - refactored from TechFlow Suite Pro
+
+server:
+  location: wsl
+  base_path: /mnt/c/Users/abela/prweb/web26-077-tool-techflow-win-manager
+
+service:
+  type: none
+  expect_offline: true
+
+urls:
+  reference: https://github.com/LUISFGARCIAE/TechFlow_Suite_Pro
+
+stack:
+  primary: powershell
+
+updated_at: "2026-04-07T12:00:00"
+updated_by: claude-077
